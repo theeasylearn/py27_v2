@@ -6,3 +6,6 @@ print(data[:5])
 print(data[0:5])
 print(data[4:])
 print(data[3:10])
+print(data*3)
+data1 = ' our batch code is py27'
+print(data+data1)
