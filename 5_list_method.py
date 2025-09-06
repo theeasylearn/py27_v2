@@ -25,4 +25,4 @@ print(l1)
 l3.clear()    # clear()  #Removes all items from the list
 print(l3)
 del l3
-print(l3)
+# print(l3)  # return error because l3 is deleted
