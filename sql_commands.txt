@@ -1,0 +1,9 @@
+create table person (
+	id int PRIMARY KEY AUTO_INCREMENT, 
+    name varchar(32) unique not null, 
+    surname varchar(32) not null, 
+    weight float(5,2), 
+    gender char(1),
+    birthdate date, 
+    photo varchar(255)
+)
